@@ -129,7 +129,29 @@ public class Condicionales {
         for(int i=0; i<vector.length; i++){
             System.out.println("Estoy en el indice: " + i);
             System.out.println("Tengo guardado el numero " + vector[i]);
+            System.out.println("--------------------------");
         }
+        
+        // Vector 2
+        
+        // Declaracion 
+        int vector2 [] = new int [4]; // crea 4 cajas de 0 a 3
+        
+        // Asignacion (por teclado)
+        Scanner usuario = new Scanner (System.in);
+            for(int indice=0; indice<vector2.length; indice++){
+                System.out.println("Ingrese el valor para el indice " + indice);
+                vector2[indice] = teclado.nextInt(); // carga valor por teclado
+            }
+        
+        // Recorrido de un vector - tomando en cuenta la longitud del vector
+        for(int indice=0; indice<vector2.length; indice++){
+            System.out.println("Estoy en el indice: " + indice);
+            System.out.println("Tengo guardado el numero " + vector2[indice]);
+            System.out.println("--------------------------");
+        }
+        
+        
         
     }
     
