@@ -99,12 +99,17 @@ public class Condicionales {
             System.out.println("El sueldo es " + sueldo);
         }  
         
-        // while 
+        // while - De 0 a 10
         int count = 0;
         
         while (count <= 10){
             System.out.println("Estoy en la vuelta " + count);
             count = count + 1;
+        }
+        
+        // for - De 0 a 10
+        for (int cont=0; cont<=10; cont++) {
+            System.out.println("Estoy dando vueltas con el ciclo for: " + cont);
         }
         
         
