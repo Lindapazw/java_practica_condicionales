@@ -151,7 +151,7 @@ public class Condicionales {
             System.out.println("--------------------------");
         }
         
-        // Matrices
+        // Matrices 1 
         
         // Declaracion - filas - columnas
         int matriz[][] = new int [3][3];
@@ -175,6 +175,27 @@ public class Condicionales {
             } 
         }
         
+         // Matrices 2
+        
+        // Declaracion - filas - columnas
+        int matriz2[][] = new int [3][3];
+        Scanner teclado2 = new Scanner (System.in);
+                
+        // Asignacion por teclado
+        for (int f=0; f<3; f++){
+            for(int c=0; c<3 ; c++){
+                System.out.println("Ingresa el valor");
+                matriz2[f][c] = teclado2.nextInt();
+            } 
+        }
+        
+        // Recorrer
+        for (int f=0; f<3; f++){
+            for(int c=0; c<3 ; c++){
+                System.out.println("El valor de la posicion f: " + f + " c: " + c );
+                System.out.println("Es de: " + matriz2[f][c]);
+            } 
+        }
         
     }
     
