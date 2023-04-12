@@ -95,9 +95,18 @@ public class Condicionales {
             }
         }
         
-        if(categoria == 1 || categoria == 2 || categoria ==3 ) { 
+        if(categoria == 1 || categoria == 2 || categoria == 3 ) { 
             System.out.println("El sueldo es " + sueldo);
         }  
+        
+        // while 
+        int count = 0;
+        
+        while (count <= 10){
+            System.out.println("Estoy en la vuelta " + count);
+            count = count + 1;
+        }
+        
         
     }
     
