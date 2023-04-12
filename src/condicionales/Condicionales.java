@@ -95,7 +95,9 @@ public class Condicionales {
             }
         }
         
-        System.out.println("El sueldo es " + sueldo);
+        if(categoria == 1 || categoria == 2 || categoria ==3 ) { 
+            System.out.println("El sueldo es " + sueldo);
+        }  
         
     }
     
