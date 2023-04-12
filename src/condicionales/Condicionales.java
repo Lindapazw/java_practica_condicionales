@@ -166,6 +166,16 @@ public class Condicionales {
         matriz[2][0] = 6;
         matriz[2][1] = 7;
         matriz[2][2] = 8;
+        
+        // Recorrer
+        for (int f=0; f<3; f++){
+            for(int c=0; c<3 ; c++){
+                System.out.println("El valor de la posicion f: " + f + " c: " + c );
+                System.out.println("Es de: " + matriz[f][c]);
+            } 
+        }
+        
+        
     }
     
 }
