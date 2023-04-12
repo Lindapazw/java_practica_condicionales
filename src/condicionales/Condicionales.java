@@ -112,6 +112,24 @@ public class Condicionales {
             System.out.println("Estoy dando vueltas con el ciclo for: " + cont);
         }
         
+        // Arrays - vectores y matrices
+        
+        // Vector
+        
+        // Declaracion 
+        int vector [] = new int [4]; // crea 4 cajas de 0 a 3
+        
+        // Asignacion (manual)
+        vector[0]=2;
+        vector[1]=35;
+        vector[2]=48;
+        vector[3]=157;
+        
+        // Recorrido de un vector - tomando en cuenta la longitud del vector
+        for(int i=0; i<vector.length; i++){
+            System.out.println("Estoy en el indice: " + i);
+            System.out.println("Tengo guardado el numero " + vector[i]);
+        }
         
     }
     
