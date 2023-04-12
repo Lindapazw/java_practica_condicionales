@@ -25,8 +25,22 @@ public class Condicionales {
             System.out.println("El numero 4 es mayor");
         }
         
+        // condicionales anidados 
+        int num5 = 10;
+        int num6 = 11;
         
         
+        if(num5 > num6){
+            System.out.println("El numero 10 es mayor que 11");
+        }
+        else {
+            if(num5 == num6){
+                System.out.println("Los numeros son iguales");
+            }
+            else{
+                System.out.println("El numero 11 es mayor al numero 10");
+            }
+        }
     }
     
 }
