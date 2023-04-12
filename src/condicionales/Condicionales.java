@@ -1,6 +1,8 @@
 
 package condicionales;
 
+import java.util.Scanner;
+
 
 public class Condicionales {
 
@@ -44,7 +46,7 @@ public class Condicionales {
         
         // switch - multiples sentencias a partir de una condicion
         // ¿Cual es el dia elegido?
-        int dia = 5;
+        int dia = 2;
         String nombreDia;
         
         switch (dia) {
@@ -67,6 +69,33 @@ public class Condicionales {
         }
         System.out.println("El dia de la semana elegido es: " + nombreDia);
         
+        // Ejercicio de condicionales
+        // Calcular el sueldo
+        double sueldo = 0;
+        int categoria;
+        
+        System.out.println("Ingrese el tipo de categoria que desea calcular: ");
+        Scanner teclado = new Scanner (System.in);
+        categoria = teclado.nextInt();
+        
+        if(categoria == 1) {
+            sueldo = 15890 + (15890*0.10);
+        } 
+        else {
+            if(categoria == 2) {
+                sueldo = 25630.89;
+            }
+            else {
+                if(categoria == 3 ){
+                    sueldo = 35560.20 - (35560.20*0.11);
+                }
+                else {
+                    System.out.println("Debe ingresar un numero valido");
+                }
+            }
+        }
+        
+        System.out.println("El sueldo es " + sueldo);
         
     }
     
