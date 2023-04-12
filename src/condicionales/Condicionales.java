@@ -112,9 +112,9 @@ public class Condicionales {
             System.out.println("Estoy dando vueltas con el ciclo for: " + cont);
         }
         
-        // Arrays - vectores y matrices
+        // Arrays - vectores y matrices 
         
-        // Vector
+        // Vector 1
         
         // Declaracion 
         int vector [] = new int [4]; // crea 4 cajas de 0 a 3
@@ -151,8 +151,21 @@ public class Condicionales {
             System.out.println("--------------------------");
         }
         
+        // Matrices
         
-        
+        // Declaracion - filas - columnas
+        int matriz[][] = new int [3][3];
+                
+        // Asignacion manual
+        matriz[0][0] = 0;
+        matriz[0][1] = 1;
+        matriz[0][2] = 2;
+        matriz[1][0] = 3;
+        matriz[1][1] = 4;
+        matriz[1][2] = 5;
+        matriz[2][0] = 6;
+        matriz[2][1] = 7;
+        matriz[2][2] = 8;
     }
     
 }
